@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.team-image {
+  height: 100px;
+  width: 80px;
+  margin-right: 10px;
+}
+.team-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  margin: 20px;
+}
+p {
+  text-align: center;
+}

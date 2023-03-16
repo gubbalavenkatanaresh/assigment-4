@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.not-heading {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 60px;
+}
+@media (min-width: 768px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
